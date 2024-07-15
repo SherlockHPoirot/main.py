@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Sesuatu yang sangat aneh atau memalukan",
+            "LOL": "Tanggapan umum terhadap sesuatu yang lucu",
+            "CRINGE":"Tanggapan untuk sesuatu yang memalukan",
+            "SHEESH":"Tanggapan ketika seseorang melakukan sesuatu dengan sangat baik",
+            "RIZZ":"Singkatan untuk charizma;ketika seseorang memiliki penampilan yang sangant memikat"
+            }
+
+
+for i in range (len(meme_dict)):
+    search = input('enter the terms!')
+    if search in meme_dict.keys():
+        print(meme_dict[search])
+    else:
+        print("the terms can't be detected by our dictionary!")
